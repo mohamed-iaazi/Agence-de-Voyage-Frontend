@@ -67,20 +67,36 @@ button{
     
     }
   .PRENOM{
-    
+    margin-right:10px ;
+   
+  }
+  .NOM{
+    margin-left:15px ;
+   
   }
     .name {
-        /* margin: 20px ; */
         display: flex;
         
     }
     .autre label{
-    /* margin: 20px; */
    flex-direction: column-reverse;
    
     }
     label{
+     margin-top: 10px;
      display: flex;
-        /* padding: 10px; */
        
+    }
+    .box1{
+        padding-right: 180px;
+    }
+    .contact{
+background-color: var(--menu-background);
+width: 30%;
+padding-bottom: 30px;
+padding-left: 30px;
+margin-left: 400px;
+margin-top: 80px;
+border-radius: 5%;
+
     }
