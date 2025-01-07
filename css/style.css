@@ -10,6 +10,32 @@
 }
 
 
+@media screen and (max-width:879px) {
+    .account button,ul{
+        display: none;
+
+    }
+    main h1{
+        font-size: 30px;
+
+    }
+    
+    
+}
+
+@media  screen and (min-width: 879px) {
+
+    .account a {
+        display: none;
+
+    }
+    main h1{
+        font-size: 50px;
+
+    }
+
+}
+
 
 *{
     padding: 0;
@@ -45,6 +71,10 @@ li{
 .account{
     padding-right: 10%;
 }
+
+.account a{
+    color: var(--orange);
+}
 button{
     padding: 6px 15px;
     border: none;
@@ -71,12 +101,23 @@ main {
     background-size: cover;
 
 }
+
+.Container{
+    max-width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
     main h1{
         color: #fff;
-        font-family: "Irish Grover", serif;
+        /* font-family: "Irish Grover", serif; */
+        font-family: "Abhaya Libre", serif;
         font-weight: 800;
         font-style: normal;
-        font-size: 70px;
         text-align: center;
             
           
@@ -173,17 +214,11 @@ font-weight: bold;
    
 }
 
-.Container{
-    max-width: 100%;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-.cards .eines{
-  
 
-}
+ul a:hover{
+    background-color: #f2845579;
+    padding: 20px 20px;
+    font-weight: bolder;
+    position:relative;
+    color: white;
+} 
