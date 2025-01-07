@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("imag/istockphoto-529456401-612x612.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+    
+}
+.A{
+    /* background-color: white; */
+    width: 40%;
+    height: 40%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.A1{
+    background: rgba(255, 255, 255, 0.384);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    padding: 40px,20px,60px,20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    position: relative;
+}
