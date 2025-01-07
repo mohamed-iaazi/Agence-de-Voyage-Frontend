@@ -61,3 +61,26 @@ button{
     border: #1669ED 1px solid;
     color: #1669ED;
 }
+
+.contact h1{
+    padding: 20px;
+    
+    }
+  .PRENOM{
+    
+  }
+    .name {
+        /* margin: 20px ; */
+        display: flex;
+        
+    }
+    .autre label{
+    /* margin: 20px; */
+   flex-direction: column-reverse;
+   
+    }
+    label{
+     display: flex;
+        /* padding: 10px; */
+       
+    }
