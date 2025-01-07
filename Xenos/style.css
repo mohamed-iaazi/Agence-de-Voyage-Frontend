@@ -1,31 +1,116 @@
-*{
+
+body {
     margin: 0;
-    padding: 0;
-}
-body{
-    background-image:url("imag/istockphoto-529456401-612x612.jpg");
+    font-family: Arial, sans-serif;
+    background: url('imag/istockphoto-529456401-612x612.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-   height: 100vh;
-    
-}
-.A{
-    /* background-color: white; */
-    width: 40%;
-    height: 40%;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-}
-.A1{
-    background: rgba(255, 255, 255, 0.384);
-    backdrop-filter: blur(2px);
+    height: 100vh;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
     border-radius: 10px;
-    padding: 40px,20px,60px,20px;
-    width: 300px;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-header .user-icon {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #ff6600;
+    margin: 5px 0;
+  }
+  
+  p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .input-group {
     position: relative;
-}
+    margin: 15px 0;
+  }
+  
+  .input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .input-group input {
+    width: 80%;
+    padding: 10px 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: #e55c00;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    color: #333;
+  }
+  
+  .register-btn {
+    background: transparent;
+    border: 1px solid #131211;
+    color: #0b0b0b;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .register-btn:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  

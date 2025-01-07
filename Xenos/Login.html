@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="A">
-        <div class="A1">
-            <div> <img src="imag/icons8-log-in-64 (1).png" alt=""></div>
-           
-                <h2>Lgin</h2>
-                <p>sign in to your account</p>
-                <form>
-                    <div class="input-group">
-                        <div class="email">
-                            <img src="imag/icons8-email-50.png" alt="">
-                            <input type="email" id="email" placeholder="User Email">
-                        </div>
-                        <div class="password">
-                            <img src="imag/icons8-password-50.png" alt="">
-                            <input type="password" id="password" placeholder="Password">
-                            <img src="imag/icons8-vision-24.png" alt="">
-                        </div>
-                    </div>
-                    <button type="submit" class="btn">Login</button>
-                    <a href="#" class="forget-password">I forget my password .Click here to reset</a>
-                </form>
-           
+  <div class="container">
+    <div class="login-form">
+      <div class="form-header">
+        <img src=" imag/icons8-log-in-64 (1).png" alt="User Icon" class="user-icon">
+        <h2>Login</h2>
+        <p>Sign in to your account</p>
+      </div>
+      <form>
+       
+        <div class="input-group">
+          <img src="imag/icons8-email-50.png" alt="Email Icon" class="icon">
+          <input type="email" placeholder="User Email" required>
         </div>
 
+        
+        <div class="input-group">
+          <img src="imag/icons8-password-50.png" alt="Lock Icon" class="icon">
+          <input type="password" placeholder="Password" required>
+          <!-- <img src="imag/icons8-vision-24.png" alt="Eye Icon" class="toggle-password"> -->
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+        <a href="#" class="forgot-password">I forgot my password. Click here to reset</a>
+      </form>
+      <button class="register-btn">Register New Account</button>
     </div>
-    
+  </div>
 </body>
 </html>
