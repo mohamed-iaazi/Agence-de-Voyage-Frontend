@@ -66,10 +66,7 @@ button{
     padding: 20px;
     
     }
-  .PRENOM{
-    margin-right:10px ;
-   
-  }
+ 
   .NOM{
     margin-left:15px ;
    
@@ -85,18 +82,45 @@ button{
     label{
      margin-top: 10px;
      display: flex;
+     padding: 3PX;
        
     }
+   
     .box1{
         padding-right: 180px;
+
     }
+    .box2{
+        padding-right: 180px;
+        padding-bottom: 70px;
+    }
+    body{
+        background-image :url("../images/jam3.jpg") ;
+        background-size: 100%;
+    }
+    .Contact-nous{
+       text-align: center;
+       font-family: 'Lucida Sans' ;       
+    }
+    
     .contact{
 background-color: var(--menu-background);
 width: 30%;
-padding-bottom: 30px;
-padding-left: 30px;
-margin-left: 400px;
-margin-top: 80px;
+padding-top: 5px;
+padding-left: 40px;
+margin-left: 420px;
+margin-top: 50px;
 border-radius: 5%;
-
+margin-bottom: 30px;
     }
+    .ENVOYER{
+        background-color: #EB662B;
+        margin: 20px;
+        color: aliceblue;
+    }
+
+    input{
+        padding: 2px 0px;
+        padding-left: 10px;
+    }
+    
