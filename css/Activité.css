@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* style main */
+.main {
+background-image: url("../img-activité/marrakech.webp");
+width: 100%;
+height: 612px;
+background-repeat: no-repeat;
+background-size: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main h1{
+    
+    justify-content: center;
+    color: #fff;
+    font-family: "Irish Grover", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 70px;
+        
+      
+    
+}
