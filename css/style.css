@@ -1,0 +1,63 @@
+ 
+ 
+ :root {
+--orange : #EB662B;
+--menu-background : #FDF0EA;
+--text-boldColor: #F28555;
+--text-lightBlack-color: #383636;
+--green-btn-color:#29AA2B;
+--font:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+
+}
+
+nav{
+    background-color: var(--menu-background);
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav img {
+height:20px;
+width: 70px;
+margin-left: 10%;
+}
+a{
+    text-decoration: none;
+    color: #605f5f;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.account{
+    padding-right: 10%;
+}
+button{
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    min-width: 140px;
+}
+.Orange-btn{
+    background-color: #EB662B;
+    border: var(--orange) solid 1px;
+    color: white;
+}
+
+.green-btn{
+    background-color:white;
+    border: #1669ED 1px solid;
+    color: #1669ED;
+}
