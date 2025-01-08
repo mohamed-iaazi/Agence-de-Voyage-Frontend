@@ -11,8 +11,15 @@
 
 
 @media screen and (max-width:879px) {
+    
     .account button,ul{
         display: none;
+        position: absolute;
+
+    }
+    .account a {
+        display: block;
+        position: relative;
 
     }
     main h1{
@@ -222,3 +229,14 @@ ul a:hover{
     position:relative;
     color: white;
 } 
+.Orange-btn:hover{
+
+    background-color: #f284558c;
+    border: #f284554c;
+}
+
+.green-btn:hover{
+
+    background-color: #1668ed38;
+    border: #1668ed38;
+}
