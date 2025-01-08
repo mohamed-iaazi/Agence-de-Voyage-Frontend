@@ -21,9 +21,8 @@ main h1{
     font-weight: 800;
     font-style: normal;
     font-size: 70px;
-        
-      
-    
+    text-shadow: 4px 1px orange;
+  
 }
 
 /*----- style header ------*/
@@ -32,6 +31,9 @@ main h1{
     justify-content: space-evenly;
     padding: 20px;
     flex-wrap: wrap;
+}
+.description{
+    margin: 30px;
 }
 .card{
     background-color: #FFF;
@@ -61,6 +63,6 @@ main h1{
     color: #FFF;
     margin-top: 10px;
     margin-left: 120px;
-    padding: 6px;
+    
     
 }
