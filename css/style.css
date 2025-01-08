@@ -115,21 +115,8 @@ font-weight: bold;
     height: 35px;
 }
 
-.action{
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
+.green-btn{
+    background-color:white;
+    border: #1669ED 1px solid;
+    color: #1669ED;
 }
-.action span{
-    color: #948A8A;
-    text-decoration: line-through;
-    font-size: 10px
-}
-.action p{
-    font-weight: bold;
-    display: inline-block;
-    font-size: 10px;
-   
-}
-
-
