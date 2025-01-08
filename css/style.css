@@ -100,7 +100,8 @@ button{
     }
     .Contact-nous{
        text-align: center;
-       font-family: 'Lucida Sans' ;       
+       font-family: 'Lucida Sans' ;   
+           margin-top: 50px;
     }
     
     .contact{
@@ -109,9 +110,10 @@ width: 30%;
 padding-top: 5px;
 padding-left: 40px;
 margin-left: 420px;
-margin-top: 50px;
+margin-top: 30px;
 border-radius: 5%;
 margin-bottom: 30px;
+
     }
     .ENVOYER{
         background-color: #EB662B;
@@ -123,4 +125,17 @@ margin-bottom: 30px;
         padding: 2px 0px;
         padding-left: 10px;
     }
-    
+    @media screen and (max-width:500px) {
+       
+        body{
+            background-image :none;
+        }     
+        .Contact-nous{
+            text-align: center;
+            font-family: 'Lucida Sans' ;   
+                margin-top: 50px;
+         }
+         .contact{
+         font-size: 30px;
+        }
+    }
