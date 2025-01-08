@@ -21,9 +21,7 @@ main h1{
     font-weight: 800;
     font-style: normal;
     font-size: 70px;
-        
-      
-    
+   
 }
 
 /*----- style header ------*/
@@ -41,6 +39,7 @@ main h1{
     padding: 10px;
     margin: 20px;
     box-shadow: 1px 2px 10px #ff892221 ;
+    
 }
 .card img {
     width: 120px;
@@ -52,15 +51,20 @@ main h1{
     border-radius: 100%;
 }
 
-.card p,h5{
+.card p,h4{
     padding: 10px;
 }
 
-#btn{
+.btn{
     background-color:#FF8922 ;
     color: #FFF;
     margin-top: 10px;
     margin-left: 120px;
     padding: 6px;
     
+}
+
+.descreption{
+    text-align: center;
+    margin: 50px;
 }
