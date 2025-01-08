@@ -1,0 +1,73 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../../images/jam3.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0px;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 10%;
+      
+}
+
+nav::before{
+    background-color: rgba(0,0,0,.1);
+    backdrop-filter: blur(50px);  
+    z-index: -1; 
+}
+nav .menu img{
+    height: 30px;
+    width: 30px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 29, 28);
+}
+
+.menu .close ,.open{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media (max-width:900px) {
+    ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 25%;
+        height: 60vh;
+        background-color:white;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-shadow: 0 0px 10px #e89a0818;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    
+}
+

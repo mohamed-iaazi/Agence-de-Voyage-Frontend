@@ -9,43 +9,12 @@
     }
     
     
-    @media screen and (max-width:879px) {
-        
-        .account button,ul{
-            display: none;
-            position: absolute;
-    
-            
-    
-        }
-        .account a {
-            display: block;
-            position: relative;
-    
-        }
-        main h1{
-            font-size: 30px;
-    
-        }
-        
-        
-    }
-    
-    @media  screen and (min-width: 879px) {
-    
-        .account a {
-            display: none;
-    
-        }
-        main h1{
-            font-size: 50px;
-    
-        }
-    
-    }
+
     
     
     *{
+
+        box-sizing: border-box;
         padding: 0;
         margin: 0;
         font-family: var(--font);
@@ -53,8 +22,9 @@
     
     }
     
-    nav{
-        background-color: var(--menu-background);
+    /* nav{
+        background-color: rgb(0, 0, 0,.1);
+        backdrop-filter: blur(50px);
         display: flex;
         padding: 10px 0;
         justify-content: space-between;
@@ -99,7 +69,7 @@
         background-color:white;
         border: #1669ED 1px solid;
         color: #1669ED;
-    }
+    } */
     
     main {
         background-image: url("../img-activité/marrakech.webp");
@@ -223,21 +193,4 @@
     }
     
     
-    ul a:hover{
-        background-color: #f2845579;
-        padding: 20px 20px;
-        font-weight: bolder;
-        position:relative;
-        color: white;
-    } 
-    .Orange-btn:hover{
-    
-        background-color: #f284558c;
-        border: #f284554c;
-    }
-    
-    .green-btn:hover{
-    
-        background-color: #1668ed38;
-        border: #1668ed38;
-    }
+   

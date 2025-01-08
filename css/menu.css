@@ -8,26 +8,24 @@
     }
     
     
-    @media screen and (max-width:879px) {
+    @media screen and (max-width:1029px) {
         
-        .account button,ul{
-            display: none;    
+        nav ul ,nav button{
+           display: none;
         }
+
        
-        main h1{
-            font-size: 30px;
+       
     
-        }
-        
         
     }
     
-    @media  screen and (min-width: 879px) {
+    @media  screen and (min-width: 1029px) {
     
         .account a {
             display: none;
     
-        }
+        } 
         main h1{
             font-size: 50px;
     
@@ -60,6 +58,7 @@
     a{
         text-decoration: none;
         color: #605f5f;
+        padding: 10px 20px;
     }
     li{
         display: inline-block;
@@ -94,11 +93,11 @@
     
     }
 
+
+
     ul a:hover{
         background-color: #f2845579;
-        padding: 20px 20px;
-        font-weight: bolder;
-        position:relative;
+         padding: 10px 20px; 
         color: white;
     } 
     .Orange-btn:hover{
