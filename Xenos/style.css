@@ -65,7 +65,7 @@
 
 
 
-/*------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
 section {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -77,14 +77,69 @@ section {
     height: 100vh;
   } 
   
-  /* .container {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    width: 350px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  } */
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-header .user-icon {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #ff6600;
+    margin: 5px 0;
+  }
+  
+  p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin: 15px 0;
+  }
+  
+  .input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+  }
+   */
+ 
+  .btn:hover {
+    background-color: #e55c00;
+  }
+  
+
+  
+  .forgot-password:hover {
+    color: #333;
+  }
+  
+
+  
+  .register-btn:hover {
+    background-color: #ff6600;
+    color: white;
+  }
   
  
   /* telephon */
@@ -98,64 +153,23 @@ section {
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
-    .login-form {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .form-header .user-icon {
-      width: 50px;
-      margin-bottom: 10px;
-    }
-    
-    h2 {
-      color: #ff6600;
-      margin: 5px 0;
-    }
-    
-    p {
-      color: #666;
-      font-size: 14px;
-    }
-    
-    .input-group {
-      position: relative;
-      margin: 15px 0;
-    }
-    
-    .input-group .icon {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
-    }
-    
-    .input-group input {
-      width: 50%;
-      padding: 10px 45px;
-      border: 1px solid #ddd;
+    .btn {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      padding: 10px 10px;
       border-radius: 5px;
-    }
-    
-    .toggle-password {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
       cursor: pointer;
-      
+      font-size: 11px;
+      width: 70%;
     }
-    
-    
-    
-    .forgot-password:hover {
-      color: #333;
+    .forgot-password {
+      display: block;
+      margin: 10px 0;
+      font-size: 7px;
+      color: #666;
+      text-decoration: none;
     }
-    
     .register-btn {
       background: transparent;
       border: 1px solid #131211;
@@ -169,37 +183,28 @@ section {
        margin-left: auto;
        margin-right: auto;
     }
-    
-    .register-btn:hover {
-      background-color: #ff6600;
-      color: white;
-    }
-    .btn {
-      background-color: #ff6600;
-      color: white;
-      border: none;
-      padding: 10px 10px;
+    .input-group input {
+      width: 50%;
+      padding: 10px 45px;
+      border: 1px solid #ddd;
       border-radius: 5px;
-      cursor: pointer;
-      font-size: 11px;
-      width: 70%;
     }
+
+
     
-    .btn:hover {
-      background-color: #e55c00;
-    }
     
-    .forgot-password {
-      display: block;
-      margin: 10px 0;
-      font-size: 7px;
-      color: #666;
-      text-decoration: none;
-    }
     
   }
-  /* ipad */
+  /* ipad -------------------------------------------------------------------------*/
   @media (max-width:800px) and (min-width:600px){
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
     .btn {
       background-color: #ff6600;
       color: white;
@@ -210,11 +215,6 @@ section {
       font-size: 13px;
       width: 80%;
     }
-    
-    .btn:hover {
-      background-color: #e55c00;
-    }
-    
     .forgot-password {
       display: block;
       margin: 10px 0;
@@ -235,80 +235,17 @@ section {
       margin-left: auto;
        margin-right: auto;
     }
-    .container {
-      background: rgba(255, 255, 255, 0.9);
-      padding: 20px;
-      border-radius: 10px;
-      width: 300px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
-    .login-form {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .form-header .user-icon {
-      width: 50px;
-      margin-bottom: 10px;
-    }
-    
-    h2 {
-      color: #ff6600;
-      margin: 5px 0;
-    }
-    
-    p {
-      color: #666;
-      font-size: 14px;
-    }
-    
-    .input-group {
-      position: relative;
-      margin: 15px 0;
-    }
-    
-    .input-group .icon {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
-    }
-    
     .input-group input {
       width: 60%;
       padding: 10px 55px;
       border: 1px solid #ddd;
       border-radius: 5px;
     }
-    
-    .toggle-password {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
-      
-    }
-    
-    .forgot-password:hover {
-      color: #333;
-    }
-    
-    
-    
-    .register-btn:hover {
-      background-color: #ff6600;
-      color: white;
-    }
+
     
   }
 
-  /* pc */
+  /* pc -------------------------------------------------------*/
   @media (min-width:800px) {
     .container {
       background: rgba(255, 255, 255, 0.9);
@@ -318,58 +255,6 @@ section {
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
-    .login-form {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .form-header .user-icon {
-      width: 50px;
-      margin-bottom: 10px;
-    }
-    
-    h2 {
-      color: #ff6600;
-      margin: 5px 0;
-    }
-    
-    p {
-      color: #666;
-      font-size: 14px;
-    }
-    
-    .input-group {
-      position: relative;
-      margin: 15px 0;
-    }
-    
-    .input-group .icon {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
-    }
-    
-    .input-group input {
-      width: 80%;
-      padding: 10px 35px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
-    
-    .toggle-password {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
-      
-    }
-    
     .btn {
       background-color: #ff6600;
       color: white;
@@ -380,11 +265,6 @@ section {
       font-size: 16px;
       width: 100%;
     }
-    
-    .btn:hover {
-      background-color: #e55c00;
-    }
-    
     .forgot-password {
       display: block;
       margin: 10px 0;
@@ -392,11 +272,6 @@ section {
       color: #666;
       text-decoration: none;
     }
-    
-    .forgot-password:hover {
-      color: #333;
-    }
-    
     .register-btn {
       background: transparent;
       border: 1px solid #131211;
@@ -407,11 +282,14 @@ section {
       font-size: 16px;
       margin-top: 10px;
     }
-    
-    .register-btn:hover {
-      background-color: #ff6600;
-      color: white;
+    .input-group input {
+      width: 80%;
+      padding: 10px 35px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
     }
+    
+    
     
   }
 

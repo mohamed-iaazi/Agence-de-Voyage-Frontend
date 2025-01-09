@@ -1,0 +1,112 @@
+:root {
+    --orange : #EB662B;
+    --menu-background : #FDF0EA;
+    --text-boldColor: #F28555;
+    --text-lightBlack-color: #383636;
+    --green-btn-color:#29AA2B;
+    --font:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    
+    
+    
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: var(--font);
+    
+    }
+    
+    nav{
+        background-color: var(--menu-background);
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav img {
+    height:20px;
+    width: 70px;
+    margin-left: 10%;
+    }
+    a{
+        text-decoration: none;
+        color: #605f5f;
+    }
+    li{
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .account{
+        padding-right: 10%;
+    }
+    button{
+        /* padding: 6px 15px; */
+        border: none;
+        border-radius: 5px;
+        /* min-width: 140px; */
+    }
+    .Orange-btn{
+        background-color: #EB662B;
+        border: var(--orange) solid 1px;
+        color: white;
+    }
+    
+    .green-btn{
+        background-color:white;
+        border: #1669ED 1px solid;
+        color: #1669ED;
+    }
+    /* ----------------------------------------------------------- */
+    section{
+        background: url('imag/istockphoto-529456401-612x612.jpg');
+        margin: 0;
+        font-family: Arial,  sans-serif;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .signup-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .from-header .user-icon{
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    h2{
+        color: #ff6600;
+        margin: 5px 0;
+    }
+    p{
+        color: #666;
+        font-size: 14px;
+    }
+    .input-group{
+        position: relative;
+        margin: 15px 0;
+    }
+    .input-group .icon{
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+    }
+    .btn:hover{
+        background-color: #e55c00;
+    }
+    @media(min-width:800px){
+        .container{
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 350px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1) ;
+        }
+    }
