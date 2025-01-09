@@ -7,7 +7,7 @@
 
 
 /*----- style header ------*/
-.header{
+.Cards{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -17,6 +17,9 @@
     margin: 30px;
 }
 .card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: #FFF;
     border-radius: 10px;
     width: 300px;
@@ -43,6 +46,7 @@
 .btn{
     background-color:#FF8922 ;
     color: #FFF;
+    
     margin-top: 10px;
     margin-left: 120px;
     
