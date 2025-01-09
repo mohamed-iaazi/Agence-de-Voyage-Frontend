@@ -19,23 +19,26 @@
      <!-- Menu Items  -->
      <header>
         <nav>
+
+
             <!-- Logo  -->
-         <img src="./images/Logo.webp" alt=" ViaTours logo ">
+         <img src="images/Logo.webp" alt=" ViaTours logo ">
+
          <!-- main Menu items -->
-         <ul>
+         <ul id="menuitemes">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./destination.html">destination</a></li>
-            <li><a href="#Activité">Activités</a></li>
+            <li><a class="active" href="#destination">destination</a></li>
+            <li><a href="./Activité.html">Activités</a></li>
             <li><a href="./contact.html">Conact</a></li>
-         </ul>
-         <!-- account management -->
+             <!-- account management -->
          <div class="account">
             <button class="green-btn"> Créer un compte </button>
             <button class="Orange-btn"> Se Connecter </button>
-
-            <!-- menu icons -->
-            <a href="javascript:void(0);" onclick="showmenu()"> <i class="fa fa-bars"></i></a>
          </div>
+         </ul>
+        
+          <!-- menu icons -->
+          <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
         </nav>
     </header>
     <!-- end of menu itemes -->
@@ -114,6 +117,7 @@
 
     </section>
     
-    
+    <script src="./js/script.js"></script>
+
 </body>
 </html>
