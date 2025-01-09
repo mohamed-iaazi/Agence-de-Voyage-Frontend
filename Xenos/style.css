@@ -43,10 +43,10 @@
       padding-right: 10%;
   }
   button{
-      /* padding: 6px 15px; */
+      padding: 6px 15px;
       border: none;
       border-radius: 5px;
-      /* min-width: 140px; */
+      min-width: 140px;
   }
   .Orange-btn{
       background-color: #EB662B;
@@ -112,17 +112,7 @@ section {
     height: 20px;
   }
   
-  /* .toggle-password {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    
-  }
-   */
+  
  
   .btn:hover {
     background-color: #e55c00;
@@ -150,7 +140,7 @@ section {
       padding: 20px;
       border-radius: 10px;
       width: 200px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.852);
       text-align: center;
     }
     .btn {
@@ -177,7 +167,7 @@ section {
       padding: 10px 10px;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 10px;
+      font-size: 7px;
       margin-top: 10px;
        width: 70%; 
        margin-left: auto;
@@ -202,7 +192,7 @@ section {
       padding: 20px;
       border-radius: 10px;
       width: 300px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.852);
       text-align: center;
     }
     .btn {
@@ -229,7 +219,7 @@ section {
       padding: 10px 15px;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 13px;
       margin-top: 10px;
       width: 80%;
       margin-left: auto;
@@ -252,7 +242,7 @@ section {
       padding: 20px;
       border-radius: 10px;
       width: 350px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.852);
       text-align: center;
     }
     .btn {
