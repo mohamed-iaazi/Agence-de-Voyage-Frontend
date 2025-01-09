@@ -66,8 +66,39 @@
         padding: 20px;
         
         }
-     
-     
+        .Contact-nous{
+            text-align: center;
+            font-family: 'Lucida Sans' ;  
+            padding-top: 5px;
+            font-size: 30px;
+
+         }
+        form{
+            background-color: var(--menu-background);
+            width: 30%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            border-radius: 5%;
+            margin-bottom: 20px;
+            font-size: 10px;
+        }
+        .box1{
+            padding-right: 200px;
+    
+        }
+        .box2{
+            padding-right: 200px;
+            padding-bottom: 70px;
+        }
+        .box{
+            padding-right: 10px;
+           
+        }
         .name {
             display: flex;
             
