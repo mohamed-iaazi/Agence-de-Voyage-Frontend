@@ -1,0 +1,192 @@
+ 
+
+ :root {
+    --orange : #EB662B;
+    --menu-background : #FDF0EA;
+    --text-boldColor: #F28555;
+    --text-lightBlack-color: #383636;
+    --green-btn-color:#29AA2B;
+    --font:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    
+    
+    
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: var(--font);
+    
+    }
+    
+    nav{
+        background-color: var(--menu-background);
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav img {
+    height:20px;
+    width: 70px;
+    margin-left: 10%;
+    }
+    a{
+        text-decoration: none;
+        color: #605f5f;
+    }
+    li{
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .account{
+        padding-right: 10%;
+    }
+    button{
+        padding: 6px 15px;
+        border: none;
+        border-radius: 5px;
+        min-width: 140px;
+    }
+    .Orange-btn{
+        background-color: #EB662B;
+        border: var(--orange) solid 1px;
+        color: white;
+    }
+    
+    .green-btn{
+        background-color:white;
+        border: #1669ED 1px solid;
+        color: #1669ED;
+    }
+    
+    .contact h1{
+        padding: 20px;
+        
+        }
+     
+     
+        .name {
+            display: flex;
+            
+        }
+        .autre label{
+       flex-direction: column-reverse;
+       
+        }
+        label{
+         margin-top: 10px;
+         display: flex;
+         padding: 3PX;
+           
+        }
+       .eff{
+         display: flex;
+         gap: 10px;
+         flex-wrap: wrap;
+        }
+       
+      
+        body{
+            background-image :url("../images/jam3.jpg") ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .Contact-nous{
+           text-align: center;
+           font-family: 'Lucida Sans' ;       
+        }
+        
+       
+        .ENVOYER{
+            background-color: #EB662B;
+            margin: 20px;
+            color: aliceblue;
+        }
+    
+        input{
+            padding: 2px 0px;
+            padding-left: 10px;
+        }
+        
+        @media screen and (max-width:800px){
+        body{
+            background-image :url("../images/jam3.jpg") ;
+            background-size: cover;
+            height: 120vh;
+        }
+       
+        form{
+            background-color: var(--menu-background);
+            width: 40%;
+            padding-top: 5px;
+            padding-left: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            border-radius: 5%;
+            margin-bottom: 20px;
+            font-size: 10px;
+        }
+     
+        .box1{
+            padding-right: auto;
+    
+        }
+        .box2{
+            padding-right: auto;
+            padding-bottom: 70px;
+        }
+        .box{
+            padding-right: auto;
+           
+        }
+        .Contact-nous{
+            text-align: center;
+            font-family: 'Lucida Sans' ;  
+            padding-top: 5px;
+
+         }
+
+    }
+
+    @media (max-width:500px) {
+ 
+        .Contact-nous{
+            text-align: center;
+            font-family: 'Lucida Sans' ;  
+            padding-top: 50px;
+            padding-bottom: 20px;
+            font-size: 20px;
+
+         }
+        form{
+            font-size: 10px;
+            background-color: var(--menu-background);
+            width: 70%;
+            padding-top: 5px;
+            padding-left: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            border-radius: 5%;
+            margin-bottom: 30px;
+        }
+
+        .box1{
+            padding-right: 70px;
+    
+        }
+        .box2{
+            padding-right: 70px;
+            padding-bottom: 70px;
+        }
+        .box{
+            padding-right: 70px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+    }
