@@ -151,7 +151,7 @@
        
         form{
             background-color: var(--menu-background);
-            width: 40%;
+            width: 60%;
             padding-top: 5px;
             padding-left: 40px;
             margin-left: auto;
@@ -163,15 +163,15 @@
         }
      
         .box1{
-            padding-right: auto;
+            padding-right: 140px;
     
         }
         .box2{
-            padding-right: auto;
+            padding-right: 140px;
             padding-bottom: 70px;
         }
         .box{
-            padding-right: auto;
+            padding-right: 140px;
            
         }
         .Contact-nous{
@@ -207,15 +207,15 @@
         }
 
         .box1{
-            padding-right: 70px;
+            padding-right: 100px;
     
         }
         .box2{
-            padding-right: 70px;
+            padding-right: 100px;
             padding-bottom: 70px;
         }
         .box{
-            padding-right: 70px;
+            padding-right: 100px;
             margin-top: 0px;
             margin-bottom: 0px;
         }
