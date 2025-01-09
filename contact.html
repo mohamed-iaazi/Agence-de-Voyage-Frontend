@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="css/contactstyle.css">
     <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
@@ -12,21 +14,26 @@
     <!-- Menu Items  -->
     <header>
         <nav>
+
+
             <!-- Logo  -->
          <img src="images/Logo.webp" alt=" ViaTours logo ">
 
          <!-- main Menu items -->
-         <ul>
+         <ul id="menuitemes">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./destination.html">destination</a></li>
+            <li><a class="active" href="#destination">destination</a></li>
             <li><a href="./Activité.html">Activités</a></li>
-            <li><a href="#contact">Conact</a></li>
-         </ul>
-         <!-- account management -->
+            <li><a href="./contact.html">Conact</a></li>
+             <!-- account management -->
          <div class="account">
             <button class="green-btn"> Créer un compte </button>
             <button class="Orange-btn"> Se Connecter </button>
          </div>
+         </ul>
+        
+          <!-- menu icons -->
+          <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
         </nav>
     </header>
     <!-- end of menu itemes -->
@@ -67,6 +74,7 @@
             </form>
         
     </footer>
-    
+    <script src="./js/script.js"></script>
+
 </body>
 </html>

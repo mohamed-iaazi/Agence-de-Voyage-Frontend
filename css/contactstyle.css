@@ -19,7 +19,6 @@
     }
     
 
-    
     .contact h1{
         padding: 20px;
         
@@ -71,12 +70,6 @@
          padding: 3PX;
            
         }
-       .eff{
-         display: flex;
-         gap: 10px;
-         flex-wrap: wrap;
-        }
-       
       
         body{
             background-image :url("../images/jam3.jpg") ;
@@ -100,8 +93,53 @@
             padding-left: 10px;
         }
         
-        @media screen and (max-width:800px){
-        body{
+        @media screen and (min-width:800px){
+            body{
+                background-image :url("../images/jam3.jpg") ;
+                background-size: cover;
+                height: 120vh;
+            }
+           
+            form{
+                background-color: var(--menu-background);
+                width: 40%;
+                padding-top: 5px;
+                padding-left: 40px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                border-radius: 5%;
+                margin-bottom: 20px;
+                font-size: 10px;
+                
+            }
+         
+            .box1{
+                padding-right: 140px;
+        
+            }
+            .box2{
+                padding-right: 140px;
+                padding-bottom: 70px;
+            }
+            .box{
+                padding-right: 140px;
+               
+            }
+            .Contact-nous{
+                text-align: center;
+                font-family: 'Lucida Sans' ;  
+                padding-top: 5px;
+    
+             }
+    
+
+
+        }
+    
+        
+            @media screen and (max-width:800px){
+                body{
             background-image :url("../images/jam3.jpg") ;
             background-size: cover;
             height: 120vh;
