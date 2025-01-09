@@ -8,7 +8,7 @@
     }
     
     
-    @media screen and (max-width:1029px) {
+    @media screen and (max-width:900px) {
         
         nav ul ,nav button{
            display: none;

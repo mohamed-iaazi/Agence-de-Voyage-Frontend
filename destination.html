@@ -40,7 +40,7 @@
             <button class="Orange-btn"> Se Connecter </button>
 
             <!-- menu icons -->
-            <a href="javascript:void(0);" onclick="showmenu()"> <i class="fa fa-bars"></i></a>
+            <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
          </div>
         </nav>
     </header>
@@ -215,11 +215,24 @@
 
 
     <script>
-        function showmenu() {
+       
         
-    const menu = document.querySelector('nav ul');
-    menu.classList.toggle('show');
-}
+    let menuitems=document.getElementById("");
+
+    menuitems.style.maxHeight="0px";
+
+    function showmenu() {
+
+        if( menuitems.style.maxHeight="0px"){
+            menuitems.style.maxHeight="300px";
+
+        }
+        else{
+            menuitems.style.maxHeight="0px";
+
+        }
+    }
+
 
         
     </script>
