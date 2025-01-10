@@ -8,16 +8,11 @@
     
     }
    
-    *{
-        font-family: sans-serif;
-        padding: 0;
-        margin: 0;
-    }
    
     span{
         color: var(--orange);
     }
-         button  {
+        .Explorer button  {
         margin: 0 10px;
         padding: 5px 20px;
         height: fit-content;
@@ -39,7 +34,7 @@
         height: 230px;
         width: 250px;
     }
-    .Intro h1,h4 , button{
+    .Intro h1,h4 ,.Intro button{
         
         margin-top: 20px;
     }
@@ -90,3 +85,5 @@
     .Explorer button{
         margin: 20px 0 0 40px;
     }
+
+    
