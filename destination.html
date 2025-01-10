@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,8 +38,8 @@
             <li><a href="./contact.html">Conact</a></li>
              <!-- account management -->
          <div class="account">
-            <button class="green-btn"> Créer un compte </button>
-            <button class="Orange-btn"> Se Connecter </button>
+            <button class="green-btn" onclick="document.location='./Xenos/Sign Up.html'"> Créer un compte </button>
+            <button class="Orange-btn" onclick="document.location='./Xenos/Login.html'"> Se Connecter </button>
          </div>
          </ul>
         
@@ -50,8 +51,10 @@
 
     <main>
 
-        <h1>Meilleurs  Destination</h1>
-        <section class="Container">
+        <div class="coverback" id="destination" >
+            <h1>Meilleurs  Destination</h1>
+    
+            </div>        <section class="Container">
 
             <!-- first card -->
             <div class="cards eines">
@@ -63,7 +66,7 @@
                 <span class="line"></span>
                 <div class="local"> 
                     <div >
-                        <img src="./images/Frame.png" alt="localisaion">
+                        <img src="./images/Frame.png" alt="localisaion" >
                         <h6>Marrakech</h6> 
                     </div>
                     <span>Le : 26/03/2025</span>
@@ -212,8 +215,8 @@
     </main>
 
     <footer>
-
-    </footer>
+        <h1>Powered By <span>Code 404</span></h1>
+      </footer>
 <script src="./js/script.js"></script>
     
 </body>

@@ -21,14 +21,14 @@
 
          <!-- main Menu items -->
          <ul id="menuitemes">
-            <li><a href="./index.html">Home</a></li>
-            <li><a class="active" href="#destination">destination</a></li>
+            <li><a href="./index.html" >Home</a></li>
+            <li><a class="active" href="./destination.html">destination</a></li>
             <li><a href="./Activité.html">Activités</a></li>
-            <li><a href="./contact.html">Conact</a></li>
+            <li><a href="#contact">Conact</a></li>
              <!-- account management -->
          <div class="account">
-            <button class="green-btn"> Créer un compte </button>
-            <button class="Orange-btn"> Se Connecter </button>
+            <button class="green-btn" onclick="document.location='./Xenos/Sign Up.html'"> Créer un compte </button>
+            <button class="Orange-btn" onclick="document.location='./Xenos/Login.html'"> Se Connecter </button>
          </div>
          </ul>
         
@@ -50,15 +50,19 @@
           
             <div class="row">
          <form >
+
          <div class="name">
+
      <div class="PRENOM">
              <label>PRENOM</label>
              <input type="text"placeholder="entrer votre prenom"class="box">
       </div>
+
          <div class="NOM">
             <label>NOM</label>
             <input type="text"placeholder="entrer votre nom"class="box">
         </div>
+
       </div>
          <div class="autre">
             <label>E-MAIL</label>
@@ -74,6 +78,7 @@
             </form>
         
     </footer>
+    <!-- extern scripts for menu -->
     <script src="./js/script.js"></script>
 
 </body>
