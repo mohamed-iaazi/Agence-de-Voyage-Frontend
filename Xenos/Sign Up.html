@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign up</title>
 </head>
 <body>
-    <header>
-        <nav>
-            
-            <!-- Logo  -->
-         <img src="imag/A.webp" alt=" ViaTours logo ">
-    
-         <!-- main Menu items -->
-         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#destination">destination</a></li>
-            <li><a href="#activites">Activités</a></li>
-            <li><a href="#contact">Conact</a></li>
-         </ul>
+     <!-- Menu Items  -->
+  <header>
+    <nav>
+
+
+        <!-- Logo  -->
+     <img src="../images/Logo.webp" alt=" ViaTours logo ">
+
+     <!-- main Menu items -->
+     <ul id="menuitemes">
+      <li><a href="./../index.html">Home</a></li>
+      <li><a href="./../destination.html">destination</a></li>
+      <li><a href="./../Activité.html">Activités</a></li>
+      <li><a href="./../contact.html">Conact</a></li>
          <!-- account management -->
-         <div class="account">
-            <button class="green-btn"> Créer un compte </button>
-            <button class="Orange-btn"> Se Connecter </button>
-         </div>
-        </nav>
-    </header>
+     <div class="account">
+      <button class="green-btn"  onclick="document.location='./Sign Up.html'"> Créer un compte </button>
+      <button class="Orange-btn" onclick="document.location='./Login.html'"> Se Connecter </button>
+     </div>
+     </ul>
+    
+      <!-- menu icons -->
+      <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
+    </nav>
+</header>
+<!-- end of menu itemes -->
     <!-- ------------------------- -->
     <section>
         <div class="container">
@@ -61,13 +70,15 @@
                         <img src="imag/icons8-done-100.png" class="icon">
                         <input type="password" placeholder="Password">
                      </div>
-                     <button type="submit" class="btn"> Register</button>
+                     <button type="submit" class="btn" "> Register</button>
                 </form>
-                <button class="register-btn">Login</button>
+                <button class="register-btn" onclick="document.location='./Login.html'">Login</button>
                 
             </div>
         </div>
     </section>
+    <script src="../js/script.js"></script>
+
     
 </body>
 </html>

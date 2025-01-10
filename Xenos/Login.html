@@ -3,29 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+  <title>Login</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/menu.css">
+  <!-- for icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  
+  <!-- Menu Items  -->
   <header>
     <nav>
+
+
         <!-- Logo  -->
-     <img src="imag/A.webp" alt=" ViaTours logo ">
+     <img src="../images/Logo.webp" alt=" ViaTours logo ">
 
      <!-- main Menu items -->
-     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#destination">destination</a></li>
-        <li><a href="#activites">Activités</a></li>
-        <li><a href="#contact">Conact</a></li>
-     </ul>
-     <!-- account management -->
+     <ul id="menuitemes">
+      <li><a href="./../index.html">Home</a></li>
+      <li><a href="./../destination.html">destination</a></li>
+      <li><a href="./../Activité.html">Activités</a></li>
+      <li><a href="./../contact.html">Conact</a></li>
+         <!-- account management -->
      <div class="account">
-        <button class="green-btn"> Créer un compte </button>
-        <button class="Orange-btn"> Se Connecter </button>
+      <button class="green-btn"  onclick="document.location='./Sign Up.html'"> Créer un compte </button>
+      <button class="Orange-btn" onclick="document.location='./Login.html'"> Se Connecter </button>
      </div>
+     </ul>
+    
+      <!-- menu icons -->
+      <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
     </nav>
 </header>
+<!-- end of menu itemes -->
 <section>
   <div class="container">
     <div class="login-form">
@@ -51,9 +62,10 @@
         <button type="submit" class="btn">Login</button>
         <a href="#" class="forgot-password">I forgot my password. Click here to reset</a>
       </form>
-      <button class="register-btn">Register New Account</button>
+      <button class="register-btn" onclick="document.location='./Sign Up.html'">Register New Account</button>
     </div>
   </div>
 </section>
+<script src="../js/script.js"></script>
 </body>
 </html>

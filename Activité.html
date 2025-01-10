@@ -7,6 +7,7 @@
     <title>Activité</title>
     <link rel="stylesheet" href="css/Activité.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
       <!-- for icons  -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- font-family de h1 in class main -->
@@ -27,16 +28,16 @@
          <!-- main Menu items -->
          <ul id="menuitemes">
             <li><a href="./index.html">Home</a></li>
-            <li><a class="active" href="#destination">destination</a></li>
+            <li><a class="active" href="./destination.html">destination</a></li>
             <li><a href="./Activité.html">Activités</a></li>
             <li><a href="./contact.html">Conact</a></li>
              <!-- account management -->
          <div class="account">
-            <button class="green-btn"> Créer un compte </button>
-            <button class="Orange-btn"> Se Connecter </button>
+            <button class="green-btn" onclick="document.location='./Xenos/Sign Up.html'"> Créer un compte </button>
+            <button class="Orange-btn" onclick="document.location='./Xenos/Login.html'"> Se Connecter </button>
          </div>
          </ul>
-        
+    
           <!-- menu icons -->
           <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
         </nav>
@@ -52,9 +53,11 @@
             aux magnifiques jardins Majorelle et palais historiques.
             Profitez d’aventures dans les montagnes de l’Atlas ou d’une balade à dos de chameau dans le désert pour une expérience inoubliable.”
        </p>
-        <section class="header">
+
+    <!-- Cards -->
+        <section class="Cards">
             <div class="card">
-                <img src="img-activité/AC.jpg" alt="">
+                <img src="img-activité/AC.jpg" alt="images activité">
                 <h5>Promenade en calèche</h5>
                 <p>Parcourir les rues de Marrakech en calèche permet de découvrir
                      les monuments emblématiques comme la Koutoubia ou les remparts
@@ -64,7 +67,7 @@
 
             </div>
             <div class="card">
-                <img src="img-activité/AC moto.jpg" alt="">
+                <img src="img-activité/AC moto.jpg" alt="image moto">
                 <h4>Aventure en Quad dans le Désert</h5>
                 <p> Deux pilotes en quads rouges se saluent au milieu d’un paysage désertique parsemé de palmiers. Équipés de casques et de tenues de protection, ils partagent
                      un moment de camaraderie avant de poursuivre
@@ -74,7 +77,7 @@
 
             </div>
             <div class="card">
-                <img src="img-activité/AC montgolfiere.jpg" alt="">
+                <img src="img-activité/AC montgolfiere.jpg" alt=" image montgolfiere">
                 <h4>Vol en montgolfière</h4>
                 <p>
                     Observer le lever du soleil depuis une montgolfière est une expérience inoubliable
@@ -85,7 +88,7 @@
 
             </div>
             <div class="card">
-                <img src="img-activité/AC camel.jpg" alt="">
+                <img src="img-activité/AC camel.jpg" alt="image camel">
                 <h4>Balade à dos de chameau</h4>
                 <p>
                     Explorer la palmeraie ou les zones désertiques environnantes à dos de chameau est une activité typique qui plonge les visiteurs dans une ambiance saharienne,
@@ -95,7 +98,7 @@
 
             </div>
             <div class="card">
-                <img src="img-activité/couisine.jpg" alt="">
+                <img src="img-activité/couisine.jpg" alt="image de couisine">
                 <h4>Cours de cuisine marocaine</h4>
                 <p>
                     Apprenez à préparer des plats traditionnels marocains lors d'ateliers culinaires immersifs.
@@ -104,7 +107,7 @@
 
             </div>
             <div class="card">
-                <img src="img-activité/jardin-majorelle-ysl.jpg" alt="">
+                <img src="img-activité/jardin-majorelle-ysl.jpg" alt="image de jardin-majorelle">
                 <h4>Visite du Jardin Majorelle</h4>
                 <p>
                     Créé par le peintre Jacques Majorelle et restauré par Yves Saint Laurent,
@@ -116,6 +119,9 @@
         </section>
 
     </section>
+    <footer>
+        <h1>Powered By <span>Code 404</span></h1>
+      </footer>
     
     <script src="./js/script.js"></script>
 

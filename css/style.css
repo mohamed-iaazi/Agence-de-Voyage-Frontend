@@ -17,14 +17,6 @@
     }
     
     
-    main {
-        background-image: url("../img-activité/marrakech.webp");
-        width: 100%;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-    }
     
     
     .Container{
@@ -37,16 +29,33 @@
         justify-content: space-around;
         
     }
-        main h1{
-            color: #fff;
-            /* font-family: "Irish Grover", serif; */
-            font-family: "Abhaya Libre", serif;
-            font-weight: 800;
-            font-style: normal;
-            text-align: center;
-                
-              
-        }    
+    .coverback h1{
+        color: #fff;
+        /* font-family: "Irish Grover", serif; */
+        font-family: "Abhaya Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+        background-color: rgba(0, 0, 0, .1);
+        backdrop-filter: blur(5px);
+        height: 100px;
+        padding-top: 30px;
+            
+          
+    }
+    
+    .coverback{
+    width: 90%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img-activité/marrakech.webp");
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    }   
     main .cards , .cards img{
         width: 280px;
         height: fit-content;
@@ -58,18 +67,24 @@
         background-color: #fff;
         box-shadow: 1px 2px 10px #f2845543;
     }
+       
+.cards:hover{
+    transform: scale(1.1,1.1);
+    transition: all 1s ;
+}
+
     
     .cards .day{
-    width: 70px;
+    width: 60px;
     background-color: #F4EFEF;
     color: var(--orange);
     text-align: center;
     padding: 2px 20px;
     box-shadow: 0 4px 0 #EB662B;
-    
+    width: 50%;
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 23%;
     font-size: 12px;
     font-weight: bold;
     }
@@ -142,150 +157,3 @@
     
    
 
-:root {
-    --orange : #EB662B;
-    --menu-background : #FDF0EA;
-    --text-boldColor: #F28555;
-    --text-lightBlack-color: #383636;
-    --green-btn-color:#29AA2B;
-    --font:'Segoe UI', Tahoma, Verdana, sans-serif;
-    }
-    
-    
-
-    
-    
-    *{
-
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        font-family: var(--font);
-    
-    
-    }
-    
-    
-    
-    main {
-        background-image: url("../img-activité/marrakech.webp");
-        width: 100%;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-    }
-    
-    .Container{
-        max-width: 100%;
-        display: flex;
-        margin-top: 20px;
-        align-items: center;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-        
-    }
-        main h1{
-            color: #fff;
-            font-family: "Abhaya Libre", serif;
-            font-weight: 800;
-            font-style: normal;
-            text-align: center;
-                
-              
-        }    
-    main .cards , .cards img{
-        width: 280px;
-        height: fit-content;
-        border-radius: 5px;
-        position: relative;
-    }
-    main .cards {
-        margin: 10px;
-        background-color: #fff;
-        box-shadow: 1px 2px 10px #f2845543;
-    }
-    
-    .cards .day{
-    width: 70px;
-    background-color: #F4EFEF;
-    color: var(--orange);
-    text-align: center;
-    padding: 2px 20px;
-    box-shadow: 0 4px 0 #EB662B;
-    
-    position: absolute;
-    top: 30%;
-    left: 25%;
-    font-size: 12px;
-    font-weight: bold;
-    }
-    .cards .info{
-        padding: 20px;
-    }
-    
-    .cards h5{
-        height: 40px;
-    }
-     .line{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        width: 180px;
-        height: 2px;
-        background-color: var(--orange);
-    
-    }
-    
-    .info{
-        margin: 10px 0;
-    }
-    
-    .info img{
-        height: 15px;
-        width: 15px;
-    }
-    
-    
-    .info .local{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .info .local div{
-        display: flex;
-        gap: 10px;
-    }
-    .info span{
-        color: #EB662B;
-        font-size: 12px;
-        font-weight: bold;
-    }
-    .action button {
-        width: 80px;
-        min-width: 80px;
-        height: 35px;
-    }
-    
-    .action{
-        margin-top: 20px;
-        display: flex;
-        gap: 10px;
-    }
-    .action span{
-        color: #948A8A;
-        text-decoration: line-through;
-        font-size: 10px
-    }
-    .action p{
-        font-weight: bold;
-        display: inline-block;
-        font-size: 10px;
-       
-    }
-    
-    
-   
