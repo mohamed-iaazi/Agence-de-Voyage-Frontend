@@ -13,6 +13,7 @@
     padding: 20px;
     flex-wrap: wrap;
 }
+
 .description{
     margin: 30px;
 }
@@ -37,6 +38,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
+    
 }
 
 .card p,h4{
