@@ -86,4 +86,20 @@
         margin: 20px 0 0 40px;
     }
 
+    @media  screen and (max-width:700px){
+
+        .Intro{
+            flex-direction: column;
+
+        }
+        .Explorer ,  .Intro img ,.Explorer button ,.Explorer  h1,.Explorer h4{
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+    }
+
     

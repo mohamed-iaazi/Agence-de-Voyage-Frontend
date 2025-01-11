@@ -11,12 +11,12 @@
         padding: 0;
         margin: 0;
         font-family: var(--font);
-    
+
     }
-    
-    
+
+
     @media screen and (max-width:1010px) {
-       
+
      header {
         display: block;
         background-color: #FDF0EA;
@@ -52,10 +52,10 @@
         overflow: hidden;
         transition: all 0.5s;
         backdrop-filter: blur(6px);
-        
+
      }
 
-    
+
      nav img {
         position: absolute;
         top: 10px;
@@ -72,9 +72,9 @@
         color: #fff;
      }
     }
-    
+
     @media  screen and (min-width: 1010px) {
-    
+
     nav{
         width: 100%;
         display: flex;
@@ -93,19 +93,19 @@
         flex-wrap: nowrap;
 
     }
-    
+
     }
-    
-    
-   
-    
+
+
+
+
     header{
         background-color: var(--menu-background);
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     nav img {
     height:20px;
     width: 70px;
@@ -121,47 +121,51 @@
         display: inline-block;
         padding: 10px;
     }
-    
-    
 
-    
+
+
+
     button{
         padding: 6px 15px;
         border: none;
         border-radius: 5px;
-        min-width: 140px;
+        min-width: 150px;
+        filter: contrast(8.5);
+
+
     }
     .Orange-btn{
-        background-color: #EB662B;
-        border: var(--orange) solid 1px;
+        background-color: #A00C00;
+        border: var(--orange) solid 2px;
         color: white;
+
     }
-    
+
     .green-btn{
         background-color:white;
         border: #1669ED 1px solid;
         color: #1669ED;
-    
+
     }
 
 
 
     ul a:hover{
-        padding: 10px 20px; 
+        padding: 10px 20px;
         color: var(--orange);
         border-radius: 0px;
         border-bottom: orange 2px solid ;
 
-    } 
+    }
     .Orange-btn:hover{
         transform: scale(1,1.1);
         background-color: #f284558c;
         border: #f284554c;
     }
-    
+
     .green-btn:hover{
         transform: scale(1,1.1);
         background-color: #1668ed38;
         border: #1668ed38;
-    
+
     }
