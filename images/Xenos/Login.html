@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="./../css/footer.css">
+  <!-- for icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <!-- Menu Items  -->
+  <header>
+    <nav>
+
+
+        <!-- Logo  -->
+     <img src="../images/Logo.webp" alt=" ViaTours logo ">
+
+     <!-- main Menu items -->
+     <ul id="menuitemes">
+      <li><a href="./../index.html">Home</a></li>
+      <li><a href="./../destination.html">destination</a></li>
+      <li><a href="./../Activité.html">Activités</a></li>
+      <li><a href="./../contact.html">Conact</a></li>
+         <!-- account management -->
+     <div class="account">
+      <button class="green-btn"  onclick="document.location='./Sign Up.html'"> Créer un compte </button>
+      <button class="Orange-btn" onclick="document.location='./Login.html'"> Se Connecter </button>
+     </div>
+     </ul>
+    
+      <!-- menu icons -->
+      <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
+    </nav>
+</header>
+<!-- end of menu itemes -->
+<section>
+  <div class="container">
+    <div class="login-form">
+      <div class="form-header">
+        <img src=" imag/icons8-log-in-64 (1).png" alt="User Icon" class="user-icon">
+        <h2>Login</h2>
+        <p>Sign in to your account</p>
+      </div>
+      <form>
+       
+        <div class="input-group">
+          <img src="imag/icons8-email-50.png" alt="Email Icon" class="icon">
+          <input type="email" placeholder="User Email" required>
+        </div>
+
+        
+        <div class="input-group">
+          <img src="imag/icons8-password-50.png" alt="Lock Icon" class="icon">
+          <input type="password" placeholder="Password" required>
+          <!-- <img src="imag/icons8-vision-24.png" alt="Eye Icon" class="toggle-password"> -->
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+        <a href="#" class="forgot-password">I forgot my password. Click here to reset</a>
+      </form>
+      <button class="register-btn" onclick="document.location='./Sign Up.html'">Register New Account</button>
+    </div>
+  </div>
+</section>
+  <footer>
+        <h1>Powered By <span>Code 404</span></h1>
+      </footer>
+<script src="../js/script.js"></script>
+</body>
+</html>

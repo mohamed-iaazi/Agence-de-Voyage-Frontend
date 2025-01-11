@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/contactstyle.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+
+    <!-- Menu Items  -->
+    <header>
+        <nav>
+
+
+            <!-- Logo  -->
+         <img src="images/Logo.webp" alt=" ViaTours logo ">
+
+         <!-- main Menu items -->
+         <ul id="menuitemes">
+            <li><a href="./index.html" >Home</a></li>
+            <li><a class="active" href="./destination.html">destination</a></li>
+            <li><a href="./Activité.html">Activités</a></li>
+            <li><a href="#contact">Conact</a></li>
+             <!-- account management -->
+         <div class="account">
+            <button class="green-btn" onclick="document.location='./Xenos/Sign Up.html'"> Créer un compte </button>
+            <button class="Orange-btn" onclick="document.location='./Xenos/Login.html'"> Se Connecter </button>
+         </div>
+         </ul>
+        
+          <!-- menu icons -->
+          <a  onclick="showmenu()"> <i class="fa fa-bars"></i></a>
+        </nav>
+    </header>
+    <!-- end of menu itemes -->
+
+
+    <main>
+
+   
+
+       
+        <h1 class="Contact-nous">Contact nous </h1>
+
+          
+             <form >
+
+         <div class="name">
+     <div class="PRENOM">
+             <label>PRENOM</label>
+             <input type="text"placeholder="entrer votre prenom"class="box">
+      </div>
+
+         <div class="NOM">
+            <label>NOM</label>
+            <input type="text"placeholder="entrer votre nom"class="box">
+        </div>
+
+      </div>
+       
+            <label>E-MAIL</label>
+            <input type="email"placeholder="entrer votre email "class="box1">
+            <label>PAYS</label>
+            <input type="text"placeholder="entrer votre pays"class="box1">
+            <label>TELEPHONE</label>
+            <input type="number"placeholder="entre votre telephone"class="box1">
+            <label>QUESTION & COMMENTAIRS</label>
+            <input type="text"placeholder="question & commentairs"class="box2">
+
+        <button class="ENVOYER">ENVOYER</button>
+            </form>
+ 
+ </main>
+
+      <footer>
+        <h1>Powered By <span>Code 404</span></h1>
+      </footer>
+    <!-- extern scripts for menu -->
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

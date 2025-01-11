@@ -1,0 +1,145 @@
+ 
+
+ :root {
+    --orange : #EB662B;
+    --menu-background : #FDF0EA;
+    --text-boldColor: #F28555;
+    --text-lightBlack-color: #383636;
+    --green-btn-color:#29AA2B;
+    --font:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    
+    
+    
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: var(--font);
+    
+    }
+    
+    
+        
+            @media  (min-width:500px){
+                  
+   main {
+    background-image: url("../img-activité/marrakech.webp");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    h1{
+        text-align: center;
+       padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        margin-bottom: 20px;
+      
+    }
+           
+            form{
+                background-color: var(--menu-background);
+                width: fit-content;
+                padding: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5%;  
+        
+              
+            }
+            .name{
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+            label,input{
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                padding: 5px;
+            }
+        
+            label{
+                font-weight: bolder;
+                margin-top: 10px;
+                margin-bottom: 3px;
+            }
+            .NOM,.PRENOM{
+                display: flex;
+                flex-direction: column;
+            }
+            form button{
+                display: block;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+                padding: 5px 30px;
+                font-size: 14px;
+                font-weight: bold;
+                color: azure;
+                background-color: #EB662B;
+            }
+            
+           
+    }
+
+    @media (max-width:500px) {
+  main {
+    background-image: url("../img-activité/marrakech.webp");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    h1{
+        text-align: center;
+       padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        margin-bottom: 20px;
+      
+    }
+     form{
+                background-color: var(--menu-background);
+                width: fit-content;
+                padding: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5%;  
+        
+              
+            }
+         
+            label,input{
+                display: block;
+                width: 90%;
+                font-size: 15px;
+                padding: 5px;
+            }
+        
+            label{
+                font-weight: bolder;
+                margin-top: 10px;
+                margin-bottom: 3px;
+            }
+           
+            form button{
+                display: block;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+                padding: 5px 30px;
+                font-size: 14px;
+                font-weight: bold;
+                color: azure;
+                background-color: #EB662B;
+            }
+            
+           
+           
+           
+    }
